@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+#input-el{
+    border: solid;
+    border-color: rgb(55, 56, 57);
+    padding: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    
+}
+#input-el:focus{
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#input-btn{
+        cursor: pointer;
+        background-color: rgb(55, 56, 57);
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    #input-btn:hover{
+        box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+#save-btn{
+    cursor: pointer;
+    background-color: rgb(55, 56, 57);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#save-btn:hover{
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#delete-btn{
+    cursor: pointer;
+        background-color: white;
+        color: rgb(55, 56, 57);
+        border-color: rgb(55, 56, 57);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+}
+#delete-btn:hover{
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+    ul{
+        list-style: none;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    li{
+        margin-top: 5px;
+    }
+
+    li a{
+        color: black;
+    }
